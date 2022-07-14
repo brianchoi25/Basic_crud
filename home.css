@@ -6,12 +6,49 @@ div{
     color: #EEEEEE;
 }
 
-.home{
-    border: 2px solid red;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+
+.home-pic{
+    background-image: url(images/dog.jpg);
+    min-height: 400px;
+    /* Centering and positioning*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
 }
+
+.container{
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+.vertical-menu{
+    overflow: hidden;
+    background-color: antiquewhite;
+    
+}
+
+.vertical-menu a{
+    background-color: antiquewhite;
+    color: #000;
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.vertical-menu a:hover{
+    background-color: #334258;
+}
+.vertical-menu a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
 
 .about-me{
     background-color: #548CA8;
