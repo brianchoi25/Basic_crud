@@ -1,11 +1,13 @@
 
 div{
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     margin-bottom: 10px;
     color: #EEEEEE;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .home-pic{
     background-image: url(images/EagleCreek.jpg);
@@ -14,35 +16,38 @@ div{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    border-radius: 5%;
     position: relative;
 }
 
 .container{
-    position: absolute;
+    position: fixed;
     margin: 20px;
     width: auto;
 }
 
 .vertical-menu{
     overflow: hidden;
-    background-color: antiquewhite;
+    background-color: linear-gradient(90deg,whitesmoke, red);
+    border-radius: 8%;
     
 }
 
 .vertical-menu a{
-    background-color: antiquewhite;
+    background-color: white;
     color: #000;
     float: left;
     text-align: center;
     display: block;
     padding: 12px;
+    border-radius: 8%;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 .vertical-menu a:hover{
-    background-color: #334258;
+    background-color: #b0c1da;
+    text-decoration: underline;
 }
 .vertical-menu a.active{
     background-color: #04AA6D;
