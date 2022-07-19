@@ -11,24 +11,29 @@
     <form action="http://httpbin.org/post" method="post">
 
         <div>
-            <label for="email"> Email Address:</label>
-            <input type ="text" name="email" id="email">
+            <label for="email"> *Email Address:</label>
+            <input type ="text" name="email" id="email" required>
         </div>
 
         <div>
-            <label for="subject"> Subject:</label>
-            <input type ="text" name="subject" id="subject">
+            <label for="subject"> *Subject:</label>
+            <input type ="text" name="subject" id="subject" required>
         </div>
 
         <div>
-            <label for="order_number"> Order Number:</label>
-            <input type ="number" name="order_number" id="order_number">
+            <label for="order_number"> *Order Number:</label>
+            <input type ="number" name="order_number" id="order_number" required>
         </div>
 
-        <textarea class="desc_box" rows="20" cols="60"></textarea>
+        <p>
+            Description:
+        </p>
+        <textarea class="desc_box" rows="20" cols="60">  </textarea>
 
+        <p>
+            <button id="submit" type="submit"> Submit</button>            
+        </p>
 
-        <button type="submit"> Submit</button>
     </form>
 </body>
 </html>
